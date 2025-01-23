@@ -1,6 +1,10 @@
 # Adorable Cats
 ![](https://www.pakutaso.com/shared/img/thumb/nekocyan458A3838_TP_V.jpg)
 
+Cats
+Cats
+Cats
+
 Cats are one of the most beloved pets worldwide, known for their **cute appearances**, *graceful movements*, and playful personalities. 
 
 ## Why Cats are So Cute
@@ -10,6 +14,7 @@ Cats are one of the most beloved pets worldwide, known for their **cute appearan
 - Playful antics
 
 ## Popular Breeds
+
 
 ### Siamese
 Most Siamese cats have a distinctive pattern called “points”.

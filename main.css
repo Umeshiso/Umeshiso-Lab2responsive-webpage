@@ -1,0 +1,129 @@
+/* ベースのスタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* 全体の背景色 */
+    color: red; /* テキストの基本色 */
+
+  }
+  
+  /* ヘッダーのスタイル */
+  header {
+    background-color: #ffcccb; /* 薄いピンクの背景 */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #b30000; /* 少し濃い赤 */
+  }
+  
+  /* メインコンテンツのスタイル */
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* 中央寄せ */
+    background-color: #ffffff; /* 背景を白に設定 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* コンテンツに影を追加 */
+    border-radius: 8px; /* 角を丸くする */
+  }
+  
+  /* セクションのスタイル */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* イメージのスタイル */
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px; /* 角を丸くする */
+  }
+  
+  /* リストのスタイル */
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 10px;
+  }
+  
+  /* 見出しのスタイル */
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #b30000; /* 濃い赤 */
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #444; /* 少し薄い灰色 */
+  }
+  
+  /* フッターのスタイル */
+  footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  /* リンクのスタイル */
+  a {
+    color: #0066cc; /* 青 */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffcccb;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #b30000;
+    color: white;
+  }
+  
+  /* レスポンシブ対応 */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+  nav ul li a:hover {
+    background-color: #ff6666; /* 明るい赤 */
+    color: white;
+  }
+    
